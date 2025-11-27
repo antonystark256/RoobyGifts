@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64A751152ED76E0300A30297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A7510B2ED76E0300A30297 /* AppDelegate.swift */; };
+		64A751162ED76E0300A30297 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751122ED76E0300A30297 /* SceneDelegate.swift */; };
+		64A751172ED76E0300A30297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751132ED76E0300A30297 /* ViewController.swift */; };
+		64A751182ED76E0300A30297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A7510C2ED76E0300A30297 /* Assets.xcassets */; };
+		64A7511A2ED76E0300A30297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A7510F2ED76E0300A30297 /* LaunchScreen.storyboard */; };
+		64A7511B2ED76E0300A30297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A751112ED76E0300A30297 /* Main.storyboard */; };
+		64A751532ED770EE00A30297 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751522ED770EE00A30297 /* DesignSystem.swift */; };
+		64A751552ED7711100A30297 /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751542ED7711100A30297 /* TabViews.swift */; };
+		64A751572ED7712200A30297 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751562ED7712200A30297 /* RootView.swift */; };
+		64A751592ED7719D00A30297 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751582ED7719D00A30297 /* Models.swift */; };
+		64A7515C2ED771BD00A30297 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 64A7515B2ED771BD00A30297 /* RealmSwift */; };
+		64A7515D2ED771C200A30297 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 64A7515B2ED771BD00A30297 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		64A751602ED771D800A30297 /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A7515F2ED771D800A30297 /* RealmConfig.swift */; };
+		64A751642ED7720000A30297 /* InitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751632ED7720000A30297 /* InitView.swift */; };
+		64A751662ED772FC00A30297 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751652ED772FC00A30297 /* ImageHelper.swift */; };
+		64A751682ED7730C00A30297 /* GiftFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751672ED7730C00A30297 /* GiftFormView.swift */; };
+		64A7516A2ED7731700A30297 /* WishlistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751692ED7731700A30297 /* WishlistDetailView.swift */; };
+		64A7516C2ED7732200A30297 /* WishlistRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A7516B2ED7732200A30297 /* WishlistRootView.swift */; };
+		64A7516E2ED7746500A30297 /* GeminiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A7516D2ED7746500A30297 /* GeminiService.swift */; };
+		64A751702ED774C200A30297 /* AIGiftRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A7516F2ED774C200A30297 /* AIGiftRootView.swift */; };
+		64A751722ED7753A00A30297 /* TrendsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751712ED7753A00A30297 /* TrendsRootView.swift */; };
+		64A751742ED7758900A30297 /* EventFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751732ED7758900A30297 /* EventFormView.swift */; };
+		64A751762ED7759600A30297 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751752ED7759600A30297 /* EventDetailView.swift */; };
+		64A751782ED775A200A30297 /* CalendarRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751772ED775A200A30297 /* CalendarRootView.swift */; };
+		64A7517A2ED7763E00A30297 /* FunRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751792ED7763E00A30297 /* FunRootView.swift */; };
+		64A7517C2ED7764A00A30297 /* SecretSantaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A7517B2ED7764A00A30297 /* SecretSantaListView.swift */; };
+		64A7517E2ED7765500A30297 /* CertificateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A7517D2ED7765500A30297 /* CertificateListView.swift */; };
+		64A751802ED7765F00A30297 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A7517F2ED7765F00A30297 /* AchievementsView.swift */; };
+		64A751D32ED78B4A00A30297 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751D22ED78B4A00A30297 /* SettingsView.swift */; };
+		64A751D52ED78C1200A30297 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A751D42ED78C1200A30297 /* OnboardingView.swift */; };
+		64A751D82ED87D4A00A30297 /* FlagsmithClient in Frameworks */ = {isa = PBXBuildFile; productRef = 64A751D72ED87D4A00A30297 /* FlagsmithClient */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64A7515E2ED771C200A30297 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				64A7515D2ED771C200A30297 /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		64A750F32ED76DF400A30297 /* PresentsGApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentsGApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A7510B2ED76E0300A30297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64A7510C2ED76E0300A30297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64A7510D2ED76E0300A30297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A7510E2ED76E0300A30297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64A751102ED76E0300A30297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64A751122ED76E0300A30297 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64A751132ED76E0300A30297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64A751522ED770EE00A30297 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		64A751542ED7711100A30297 /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
+		64A751562ED7712200A30297 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		64A751582ED7719D00A30297 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		64A7515F2ED771D800A30297 /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
+		64A751632ED7720000A30297 /* InitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitView.swift; sourceTree = "<group>"; };
+		64A751652ED772FC00A30297 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		64A751672ED7730C00A30297 /* GiftFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftFormView.swift; sourceTree = "<group>"; };
+		64A751692ED7731700A30297 /* WishlistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistDetailView.swift; sourceTree = "<group>"; };
+		64A7516B2ED7732200A30297 /* WishlistRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistRootView.swift; sourceTree = "<group>"; };
+		64A7516D2ED7746500A30297 /* GeminiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiService.swift; sourceTree = "<group>"; };
+		64A7516F2ED774C200A30297 /* AIGiftRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIGiftRootView.swift; sourceTree = "<group>"; };
+		64A751712ED7753A00A30297 /* TrendsRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsRootView.swift; sourceTree = "<group>"; };
+		64A751732ED7758900A30297 /* EventFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormView.swift; sourceTree = "<group>"; };
+		64A751752ED7759600A30297 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		64A751772ED775A200A30297 /* CalendarRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarRootView.swift; sourceTree = "<group>"; };
+		64A751792ED7763E00A30297 /* FunRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunRootView.swift; sourceTree = "<group>"; };
+		64A7517B2ED7764A00A30297 /* SecretSantaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSantaListView.swift; sourceTree = "<group>"; };
+		64A7517D2ED7765500A30297 /* CertificateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateListView.swift; sourceTree = "<group>"; };
+		64A7517F2ED7765F00A30297 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		64A751D22ED78B4A00A30297 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		64A751D42ED78C1200A30297 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64A750F02ED76DF400A30297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A7515C2ED771BD00A30297 /* RealmSwift in Frameworks */,
+				64A751D82ED87D4A00A30297 /* FlagsmithClient in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64A750EA2ED76DF400A30297 = {
+			isa = PBXGroup;
+			children = (
+				64A751142ED76E0300A30297 /* PresentsGApp */,
+				64A750F42ED76DF400A30297 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64A750F42ED76DF400A30297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64A750F32ED76DF400A30297 /* PresentsGApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64A751142ED76E0300A30297 /* PresentsGApp */ = {
+			isa = PBXGroup;
+			children = (
+				64A7511D2ED76E0C00A30297 /* Main */,
+				64A7511C2ED76E0600A30297 /* App */,
+				64A7510C2ED76E0300A30297 /* Assets.xcassets */,
+				64A7510D2ED76E0300A30297 /* Info.plist */,
+				64A7510F2ED76E0300A30297 /* LaunchScreen.storyboard */,
+				64A751112ED76E0300A30297 /* Main.storyboard */,
+			);
+			path = PresentsGApp;
+			sourceTree = "<group>";
+		};
+		64A7511C2ED76E0600A30297 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				64A7510B2ED76E0300A30297 /* AppDelegate.swift */,
+				64A751122ED76E0300A30297 /* SceneDelegate.swift */,
+				64A751132ED76E0300A30297 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		64A7511D2ED76E0C00A30297 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				64A751632ED7720000A30297 /* InitView.swift */,
+				64A751522ED770EE00A30297 /* DesignSystem.swift */,
+				64A751542ED7711100A30297 /* TabViews.swift */,
+				64A751562ED7712200A30297 /* RootView.swift */,
+				64A751582ED7719D00A30297 /* Models.swift */,
+				64A7515F2ED771D800A30297 /* RealmConfig.swift */,
+				64A751652ED772FC00A30297 /* ImageHelper.swift */,
+				64A751672ED7730C00A30297 /* GiftFormView.swift */,
+				64A751692ED7731700A30297 /* WishlistDetailView.swift */,
+				64A7516B2ED7732200A30297 /* WishlistRootView.swift */,
+				64A7516D2ED7746500A30297 /* GeminiService.swift */,
+				64A7516F2ED774C200A30297 /* AIGiftRootView.swift */,
+				64A751712ED7753A00A30297 /* TrendsRootView.swift */,
+				64A751732ED7758900A30297 /* EventFormView.swift */,
+				64A751752ED7759600A30297 /* EventDetailView.swift */,
+				64A751772ED775A200A30297 /* CalendarRootView.swift */,
+				64A751792ED7763E00A30297 /* FunRootView.swift */,
+				64A7517B2ED7764A00A30297 /* SecretSantaListView.swift */,
+				64A7517D2ED7765500A30297 /* CertificateListView.swift */,
+				64A7517F2ED7765F00A30297 /* AchievementsView.swift */,
+				64A751D22ED78B4A00A30297 /* SettingsView.swift */,
+				64A751D42ED78C1200A30297 /* OnboardingView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64A750F22ED76DF400A30297 /* PresentsGApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A751062ED76DF600A30297 /* Build configuration list for PBXNativeTarget "PresentsGApp" */;
+			buildPhases = (
+				64A750EF2ED76DF400A30297 /* Sources */,
+				64A750F02ED76DF400A30297 /* Frameworks */,
+				64A750F12ED76DF400A30297 /* Resources */,
+				64A7515E2ED771C200A30297 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PresentsGApp;
+			packageProductDependencies = (
+				64A7515B2ED771BD00A30297 /* RealmSwift */,
+				64A751D72ED87D4A00A30297 /* FlagsmithClient */,
+			);
+			productName = PresentsGApp;
+			productReference = 64A750F32ED76DF400A30297 /* PresentsGApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64A750EB2ED76DF400A30297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					64A750F22ED76DF400A30297 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 64A750EE2ED76DF400A30297 /* Build configuration list for PBXProject "PresentsGApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64A750EA2ED76DF400A30297;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				64A7515A2ED771BD00A30297 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				64A751D62ED87D4A00A30297 /* XCRemoteSwiftPackageReference "flagsmith-ios-client" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 64A750F42ED76DF400A30297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64A750F22ED76DF400A30297 /* PresentsGApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64A750F12ED76DF400A30297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A751182ED76E0300A30297 /* Assets.xcassets in Resources */,
+				64A7511A2ED76E0300A30297 /* LaunchScreen.storyboard in Resources */,
+				64A7511B2ED76E0300A30297 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64A750EF2ED76DF400A30297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A751532ED770EE00A30297 /* DesignSystem.swift in Sources */,
+				64A751662ED772FC00A30297 /* ImageHelper.swift in Sources */,
+				64A7516E2ED7746500A30297 /* GeminiService.swift in Sources */,
+				64A7516C2ED7732200A30297 /* WishlistRootView.swift in Sources */,
+				64A7517E2ED7765500A30297 /* CertificateListView.swift in Sources */,
+				64A751552ED7711100A30297 /* TabViews.swift in Sources */,
+				64A751742ED7758900A30297 /* EventFormView.swift in Sources */,
+				64A751572ED7712200A30297 /* RootView.swift in Sources */,
+				64A7516A2ED7731700A30297 /* WishlistDetailView.swift in Sources */,
+				64A751D32ED78B4A00A30297 /* SettingsView.swift in Sources */,
+				64A751602ED771D800A30297 /* RealmConfig.swift in Sources */,
+				64A751152ED76E0300A30297 /* AppDelegate.swift in Sources */,
+				64A7517C2ED7764A00A30297 /* SecretSantaListView.swift in Sources */,
+				64A751682ED7730C00A30297 /* GiftFormView.swift in Sources */,
+				64A751162ED76E0300A30297 /* SceneDelegate.swift in Sources */,
+				64A751802ED7765F00A30297 /* AchievementsView.swift in Sources */,
+				64A751172ED76E0300A30297 /* ViewController.swift in Sources */,
+				64A751642ED7720000A30297 /* InitView.swift in Sources */,
+				64A751D52ED78C1200A30297 /* OnboardingView.swift in Sources */,
+				64A751762ED7759600A30297 /* EventDetailView.swift in Sources */,
+				64A751592ED7719D00A30297 /* Models.swift in Sources */,
+				64A7517A2ED7763E00A30297 /* FunRootView.swift in Sources */,
+				64A751722ED7753A00A30297 /* TrendsRootView.swift in Sources */,
+				64A751782ED775A200A30297 /* CalendarRootView.swift in Sources */,
+				64A751702ED774C200A30297 /* AIGiftRootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64A7510F2ED76E0300A30297 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A7510E2ED76E0300A30297 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		64A751112ED76E0300A30297 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A751102ED76E0300A30297 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64A751072ED76DF600A30297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PresentsGApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rooby Gifts";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access so you can save your certificates";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyRoobyGiftsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		64A751082ED76DF600A30297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PresentsGApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rooby Gifts";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access so you can save your certificates";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyRoobyGiftsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		64A751092ED76DF600A30297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W2Y3YV88F9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64A7510A2ED76DF600A30297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W2Y3YV88F9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64A750EE2ED76DF400A30297 /* Build configuration list for PBXProject "PresentsGApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A751092ED76DF600A30297 /* Debug */,
+				64A7510A2ED76DF600A30297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A751062ED76DF600A30297 /* Build configuration list for PBXNativeTarget "PresentsGApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A751072ED76DF600A30297 /* Debug */,
+				64A751082ED76DF600A30297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		64A7515A2ED771BD00A30297 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		64A751D62ED87D4A00A30297 /* XCRemoteSwiftPackageReference "flagsmith-ios-client" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flagsmith/flagsmith-ios-client.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		64A7515B2ED771BD00A30297 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64A7515A2ED771BD00A30297 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		64A751D72ED87D4A00A30297 /* FlagsmithClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64A751D62ED87D4A00A30297 /* XCRemoteSwiftPackageReference "flagsmith-ios-client" */;
+			productName = FlagsmithClient;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 64A750EB2ED76DF400A30297 /* Project object */;
+}
