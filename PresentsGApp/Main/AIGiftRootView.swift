@@ -6,7 +6,6 @@ struct AIGiftRootView: View {
     @Environment(\.realm) var realm
     
     // Inputs
-    // FIX: Default values must match the arrays exactly to avoid Picker warnings
     @State private var gender: String = "Any"
     @State private var age: String = ""
     @State private var budget: String = "Medium ($20-$100)"
@@ -127,7 +126,9 @@ struct AIGiftRootView: View {
     private func saveToHistory(results: [AIGiftSuggestion]) {
         let historyItem = AIGiftResultObject()
         historyItem.querySummary = "\(event) for \(gender), \(age)y"
-        let list = List<String>()
+        
+        // FIX: Explicitly use RealmSwift.List to avoid conflict with SwiftUI.List
+        let list = RealmSwift.List<String>()
         list.append(objectsIn: results.map { $0.item })
         historyItem.suggestedGifts = list
         
@@ -446,7 +447,7 @@ struct LoadingView: View {
                 .tint(.appPurple)
                 .scaleEffect(1.5)
             
-            Text("Rooby is thinking...")
+            Text("Kangaroo AI is thinking...")
                 .font(.headline)
                 .foregroundColor(.appPurple)
         }
@@ -579,7 +580,6 @@ struct AddToWishlistSheet: View {
     }
     
     private func addGift(to list: WishlistObject) {
-        // Safe write using thaw
         try? realm.write {
             if let liveList = list.thaw() {
                 let gift = GiftObject(title: item.item, details: item.description, price: 0.0)
